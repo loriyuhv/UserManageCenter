@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot01_quickstart_manunal" />
         <module name="springboot01_quickstart" />
+        <module name="springboot04_mybatis" />
       </profile>
     </annotationProcessing>
   </component>
@@ -15,6 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot01_quickstart" options="-parameters" />
       <module name="springboot01_quickstart_manunal" options="-parameters" />
+      <module name="springboot04_mybatis" options="-parameters" />
     </option>
   </component>
 </project>
