@@ -1,0 +1,8 @@
+# Maven安装本地jar包
+mvn install:install-file -Dfile=F:\z_other\common-pojo-1.0-SNAPSHOT.jar -DgroupId=cn.itcast -DartifactId=common-pojo -Dversion=1.0 -Dpackaging=jar
+# Maven卸载本地jar包
+mvn dependency:purge-local-repository -DmanualInclude="com.wsw:common-pojo"
+mvn dependency:purge-local-repository -DreResolve=false
+
+# 注意：
+Maven 命令 mvn dependency:purge-local-repository -DreResolve=false 是用来清理本地仓库中的依赖项的。这个命令会删除 Maven 从远程仓库下载并存储在本地的依赖，使得下次构建时 Maven 会重新从远程仓库下载这些依赖。

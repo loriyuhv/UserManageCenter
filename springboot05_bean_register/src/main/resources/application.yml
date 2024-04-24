@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: springboot05_bean_register
+
+#country:
+#  name: China
+#  system: socialism
+

@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot01_quickstart_manunal" />
+        <module name="springboot05_bean_register" />
         <module name="springboot01_quickstart" />
         <module name="springboot04_mybatis" />
+        <module name="springboot01_quickstart_manunal" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,6 +18,7 @@
       <module name="springboot01_quickstart" options="-parameters" />
       <module name="springboot01_quickstart_manunal" options="-parameters" />
       <module name="springboot04_mybatis" options="-parameters" />
+      <module name="springboot05_bean_register" options="-parameters" />
     </option>
   </component>
 </project>
